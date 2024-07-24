@@ -17,7 +17,7 @@ class TodoClientTest {
     @Test
     void testFindAll() {
         List<Todo> todos = todoClient.findAll();
-        assertEquals(todos.size(),200);
+        assertEquals(200,todos.size());
     }
 
 

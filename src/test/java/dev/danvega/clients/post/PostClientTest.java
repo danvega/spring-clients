@@ -18,7 +18,7 @@ class PostClientTest {
     @Test
     void testFindAll() {
         List<Post> posts = postClient.findAll();
-        assertEquals(posts.size(),100);
+        assertEquals(100,posts.size());
     }
 
 }
